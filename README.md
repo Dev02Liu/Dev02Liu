@@ -40,12 +40,6 @@ I'm currently building two exciting SaaS projects:
 
 ---
 
-## 📈 GitHub Stats
-
-![Dev02Liu's GitHub stats](https://github-readme-stats.vercel.app/api?username=Dev02Liu&show_icons=true&theme=radical)
-
----
-
 ## 🌍 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yijie-liu-746556214/)
