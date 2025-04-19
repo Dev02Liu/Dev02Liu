@@ -8,7 +8,7 @@
 
 ## 💼 About Me
 
-I'm a self-taught software developer currently working at [D.A.T.A. Corporation Softwareentwicklungs GmbH](https://www.data.co.at), where I contribute to the development of enterprise software in the medical field.
+I'm a self-taught software developer currently working at [D.A.T.A. Corporation Softwareentwicklungs GmbH](https://www.data.at), where I contribute to the development of enterprise software in the medical field.
 
 Previously, I worked in IT support at [pidas Österreich GmbH](https://www.pidas.com), serving clients in public healthcare and administration.
 
