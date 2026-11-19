@@ -1,6 +1,6 @@
 # Yijie Liu
 
-I'm a software engineer in Vienna. I work on clinical imaging software and study Business Informatics at FH Technikum Wien. I also run SoloTechAI, the one-person studio where I build and operate my own apps.
+I'm a software engineer in Vienna. I work on clinical imaging software and study Business Informatics at FH Technikum Wien. One feature I shipped lets a radiologist scroll through one image stack while a compatible series from another study follows the corresponding slice. I also run SoloTechAI, the one-person studio where I build and operate my own apps.
 
 ## Zimple Home
 
