@@ -1,38 +1,23 @@
-# 👋 Hi there, I'm Yijie Liu
+# Yijie Liu
 
-🚀 **Full Stack Developer** based in **Vienna, Austria**  
-🛠️ Passionate about building web applications that solve real-world problems  
+I'm a software engineer in Vienna. I work on clinical imaging software and study Business Informatics at FH Technikum Wien. I also run SoloTechAI, the one-person studio where I build and operate my own apps.
 
----
+## Zimple Home
 
-## 🛠️ Tech Stack
+I built a household inventory app for iOS, Android, and the web. Forward an order confirmation and the items arrive in a review list with their prices and purchase dates. After you save an item, anyone you share the household with can find its receipt or check when its warranty expires. [See Zimple Home](https://zimple.tech)
 
-### Frontend
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat&logo=nextdotjs)
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+One production problem was deciding what an error report could safely contain. A household invitation carries a token in its URL. I use Sentry SDKs with self-hosted GlitchTip, so I added filters that remove invite tokens from browser breadcrumbs, request URLs, and API transaction names before those records leave the application. On mobile and web, crash reporting follows the user's diagnostics preference.
 
-### Backend
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+## Code you can read
 
-### DevOps / Tools
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws)
-![CI/CD](https://img.shields.io/badge/-CI/CD-0A0A0A?style=flat&logo=githubactions&logoColor=white)
+**Mein Wohn-Ticket Checker** is a Python service that watches for matching housing listings in Vienna. The first poll establishes a baseline. Later polls notify the user when a listing appears, including when a previously removed listing comes back. The tests cover expired sessions and verify that repeated failures trigger one alert followed by a recovery notification. [Read the code](https://github.com/Dev02Liu/meinwohnticketChecker) · [Read the tests](https://github.com/Dev02Liu/meinwohnticketChecker/blob/main/tests/test_checker.py) · [English setup guide](https://github.com/Dev02Liu/meinwohnticketChecker/blob/main/README.en.md)
 
----
+## Other projects I'm building
 
-## 🌍 Let's Connect
+| Project | An engineering problem I worked on |
+| --- | --- |
+| [ClipLookout](https://cliplookout.com) | Turns streams and recordings into vertical highlights. Python workers claim jobs from a PostgreSQL queue. I wrote integration tests for two workers claiming work at once, expired leases, and jobs that exhaust their retries. |
+| [Golpix](https://golpix.com) | A padel coaching app in development. Native Swift and Kotlin modules extract pose landmarks on the phone. The scoring engine checks whether enough of the player is visible to give feedback and flags measurements it can't trust. |
+| [RepWake](https://repwake.app) | An exercise alarm that counts push-ups and squats on the phone. If the camera loses sight of the user halfway through a set, the counter pauses and resumes at rest, keeping the completed reps. |
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yijie-liu-746556214/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Dev02Liu)
-[![X/Twitter](https://img.shields.io/badge/-@SoloDev_AT-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/SoloDev_AT)
-
----
-
-📌 _“Code is like humor. When you have to explain it, it’s bad.” – Cory House_
+[SoloTechAI](https://solotechai.com) · [LinkedIn](https://www.linkedin.com/in/yijie-liu-746556214/) · [X](https://x.com/SoloDev_AT)
